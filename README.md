@@ -37,11 +37,11 @@ To install the packages, follow these steps:
    ```bash
    npm install
 
-npm i
-npm install @tailwindcss/vite@^4.0.0
-npm install lucide-react@^0.474.0
-npm install react-icons@^5.4.0
-npm install tailwindcss@^4.0.0
+- **npm i**
+- **npm install @tailwindcss/vite@^4.0.0**
+- **npm install lucide-react@^0.474.0**
+- **npm install react-icons@^5.4.0**
+- **npm install tailwindcss@^4.0.0**
 
 
 
