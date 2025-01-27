@@ -14,7 +14,7 @@ const UpcomingClasses = () => {
   }));
 
   const [currentPage, setCurrentPage] = useState(1);
-  const classesPerPage = 10;
+  const classesPerPage = 8;
   const totalPages = Math.ceil(classes.length / classesPerPage);
   const startIndex = (currentPage - 1) * classesPerPage;
   const displayedClasses = classes.slice(
@@ -81,7 +81,7 @@ const UpcomingClasses = () => {
         {filteredClasses.map((cls) => (
           <div
             key={cls.id}
-            className="border px-4  rounded-lg w-full shadow-sm flex flex-col sm:flex-row sm:justify-between"
+            className="border-none px-4  rounded-lg w-full shadow-sm flex flex-col sm:flex-row sm:justify-between"
           >
             <div className="flex flex-col sm:w-2/3 mb-4 sm:mb-0">
               <h3 className="text-lg font-semibold text-gray-800">

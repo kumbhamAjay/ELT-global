@@ -44,7 +44,7 @@
 // export default Sidebar;
 import React from "react";
 import { Home, BookOpen, ClipboardList, User, LogOutIcon } from "lucide-react";
-import { FaRupeeSign, FaUserAstronaut, FaUsers } from "react-icons/fa";
+import { FaRegUserCircle, FaRupeeSign, FaUserAstronaut, FaUsers } from "react-icons/fa";
 import { MdDashboard } from "react-icons/md";
 import { GoGraph } from "react-icons/go";
 import { IoSettings } from "react-icons/io5";
@@ -52,9 +52,9 @@ import { IoSettings } from "react-icons/io5";
 const Sidebar = () => {
   return (
     <div className="fixed bottom-0 w-full sm:w-64 sm:h-full bg-white shadow-md sm:static">
-      <h1 className="hidden sm:block m-5">logo</h1>
+
       <div className="flex ml-8 flex-col items-center space-x-4 p-4  rounded-lg hidden sm:block">
-        <FaUserAstronaut size={50} />
+        <FaRegUserCircle  size={50} />
         <span className="font-semibold text-lg ">John Doe</span>
       </div>
 
