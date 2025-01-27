@@ -1,47 +1,4 @@
-// import React from "react";
-// import { FaUserAstronaut } from "react-icons/fa";
-// import { FiLogOut } from "react-icons/fi";
-// const Sidebar = () => {
-//   return (
-//     <div className="bg-gray-100 w-64 min-h-screen p-4">
-//       <div className="flex items-center mb-6">
-//       <FaUserAstronaut size={50} />
-//         <div className="ml-3">
-//           <h2 className="text-lg font-semibold">John Doe</h2>
-//           <p className="text-sm text-gray-500">Intermediate</p>
-//         </div>
-//       </div>
-//       <nav className="space-y-4 p-5">
-//         <a href="#" className="flex items-center text-gray-700 hover:text-blue-600">
-//           <span className="material-icons">dashboard</span> Dashboard
-//         </a>
-//         <a href="#" className="flex items-center text-gray-700 hover:text-blue-600">
-//           <span className="material-icons">book</span> All Classes
-//         </a>
-//         <a href="#" className="flex items-center text-gray-700 hover:text-blue-600">
-//           <span className="material-icons">assignment</span> Assignments
-//         </a>
-//         <a href="#" className="flex items-center text-gray-700 hover:text-blue-600">
-//           <span className="material-icons">trending_up</span> Performance
-//         </a>
-//         <a href="#" className="flex items-center text-gray-700 hover:text-blue-600">
-//           <span className="material-icons">account_balance_wallet</span> Fee Details
-//         </a>
-//         <a href="#" className="flex items-center text-gray-700 hover:text-blue-600">
-//           <span className="material-icons">settings</span> Settings
-//         </a>
-//       </nav>
-//         <div className="d-flex items-center justify-center mt-20  mx-auto w-full  text-black">
-//                 <FiLogOut size={30} className="mr-2" />
-//                 <button>Logout</button>
 
-//         </div>
-
-//     </div>
-//   );
-// };
-
-// export default Sidebar;
 import React from "react";
 import { Home, BookOpen, ClipboardList, User, LogOutIcon } from "lucide-react";
 import { FaRegUserCircle, FaRupeeSign, FaUserAstronaut, FaUsers } from "react-icons/fa";
@@ -55,7 +12,7 @@ const Sidebar = () => {
 
       <div className="flex ml-8 flex-col items-center space-x-4 p-4  rounded-lg hidden sm:block">
         <FaRegUserCircle  size={50} />
-        <span className="font-semibold text-lg ">John Doe</span>
+        <span className="font-semibold text-lg ">Uday</span>
       </div>
 
       <div className="flex sm:flex-col justify-between sm:justify-start items-center sm:items-start py-2 sm:py-4 px-4 sm:px-6 h-full">
@@ -138,9 +95,7 @@ const Sidebar = () => {
             href="#"
             className="flex items-center space-x-2 text-sm sm:text-base text-gray-700 hover:bg-gray-100 px-2 sm:px-4 py-2 rounded hidden sm:flex"
           >
-            <span className="w-6 h-6 text-gray-600">
-              <LogOutIcon />
-            </span>
+           
             <span>Logout</span>
           </a>
       </div>

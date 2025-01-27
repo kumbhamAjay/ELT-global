@@ -7,7 +7,7 @@ const UpcomingClasses = () => {
     id: index + 1,
     name: `Class ${index + 1}`,
     status: index % 4 === 0 ? "Live" : "Scheduled",
-    time: `${Math.floor(Math.random() * 24)}:${String(
+    time: `10:${String(
       Math.floor(Math.random() * 60)
     ).padStart(2, "0")}`,
     instructor: `Instructor ${index + 1}`,
