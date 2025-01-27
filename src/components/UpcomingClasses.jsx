@@ -94,7 +94,7 @@ const UpcomingClasses = () => {
             <div className="sm:mt-0 mt-4 sm:w-auto w-full flex justify-between items-center">
               {cls.status === "Live" ? (
                 <button
-                  className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 text-xs sm:w-auto my-2 w-full"
+                  className="bg-green-500 text-white px-3 py-1 rounded hover:bg-green-600 text-xs sm:w-auto my-2 w-full"
                   onClick={() => handleJoinClick(cls)}
                 >
                   Join Now
