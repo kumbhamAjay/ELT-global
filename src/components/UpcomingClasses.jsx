@@ -14,7 +14,7 @@ const UpcomingClasses = () => {
   }));
 
   const [currentPage, setCurrentPage] = useState(1);
-  const classesPerPage = 8;
+  const classesPerPage = 10;
   const totalPages = Math.ceil(classes.length / classesPerPage);
   const startIndex = (currentPage - 1) * classesPerPage;
   const displayedClasses = classes.slice(

@@ -9,10 +9,10 @@ import { IoSettings } from "react-icons/io5";
 const Sidebar = () => {
   return (
     <div className="fixed bottom-0 w-full sm:w-64 sm:h-full bg-white shadow-md sm:static">
-
+      
       <div className="flex ml-8 flex-col items-center space-x-4 p-4  rounded-lg hidden sm:block">
         <FaRegUserCircle  size={50} />
-        <span className="font-semibold text-lg ">Uday</span>
+        <span className="font-semibold text-lg ">Ajay</span>
       </div>
 
       <div className="flex sm:flex-col justify-between sm:justify-start items-center sm:items-start py-2 sm:py-4 px-4 sm:px-6 h-full">
