@@ -12,7 +12,7 @@ const Sidebar = () => {
       
       <div className="flex ml-8 flex-col items-center space-x-4 p-4  rounded-lg hidden sm:block">
         <FaRegUserCircle  size={50} />
-        <span className="font-semibold text-lg ">Ajay</span>
+        <span className="font-semibold text-lg ">Uday</span>
       </div>
 
       <div className="flex sm:flex-col justify-between sm:justify-start items-center sm:items-start py-2 sm:py-4 px-4 sm:px-6 h-full">
@@ -95,9 +95,7 @@ const Sidebar = () => {
             href="#"
             className="flex items-center space-x-2 text-sm sm:text-base text-gray-700 hover:bg-gray-100 px-2 sm:px-4 py-2 rounded hidden sm:flex"
           >
-            <span className="w-6 h-6 text-gray-600">
-              <LogOutIcon size={20} />
-            </span>
+           
            
             <span>Logout</span>
           </a>
